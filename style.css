@@ -1,0 +1,129 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(245, 165, 225);
+}
+
+.main{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(195, 112, 216); 
+    box-shadow: 15px 20px 25px purple
+} 
+
+.heading{
+    border: 2px solid rgb(195, 112, 216);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(150 94 165);
+    font-size: 1rem;
+
+} 
+
+h2{
+    text-shadow: 2px 1px 0px white;
+}
+
+.workspace{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 41px;
+    padding: 5px; 
+    width: 400px;
+    height: 200px;
+    background-color: rgb(214, 144, 231);
+} 
+
+.formspace{
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 20px;
+    padding: 10px; 
+    font-weight: bolder;
+    
+  
+}
+
+.no{
+    width: 30px;
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+} 
+.weight{
+    /* border: 2px solid brown;  */
+    padding: 5px;
+    background-color: rgb(232, 189, 243);
+   
+}
+
+.w_unit{
+    /* border: 2px solid brown;  */
+    margin-left: 84px;
+    padding: 5px;
+    background-color: rgb(232, 189, 243);
+}  
+
+.height{
+    padding: 5px;
+    background-color: rgb(232, 189, 243);
+}
+
+.h_unit{
+    margin-left: 84px;
+    padding: 5px;
+    background-color: rgb(232, 189, 243);
+}
+.select{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+
+
+.btn{
+    border-radius: 20px; 
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    cursor: pointer; 
+    margin: -3px 20px 10px 52px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.result{
+    /* border: 2px solid orangered; */
+    
+    width: 400px; 
+    margin-left: 41px;
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} 
+
+.result_text{
+    /* border: 2px solid black;  */
+    /* margin: 5px; */
+    padding: 5px; 
+    margin-top: 15px;
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(248, 247, 248)
+} 
+
+.status{
+    /* border: 2px solid black; */
+    margin: 15px;
+    padding: 5px;
+    font-size: 1.75rem;
+    text-align: center;
+    color:rgb(248, 247, 248)
+
+}

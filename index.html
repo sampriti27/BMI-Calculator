@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <h2> BMI CALCULATOR</h2>
+
+        </div>
+        <div class="workspace">
+            <form  onsubmit="bmi_calc(); return false">
+                <div class="formspace">
+                    <div class="weight">
+                        <label> Weight: </label>
+
+                        <input type="number" class="no" id="wnum" step="0.1">
+                    </div>
+
+
+
+                    <div class="w_unit" id="w_unit"> <label> Unit:</label>
+                        <select id="wselect" class="select" >
+                            <option value="Kg">Kgs</option>
+                            <option value="lbs">Lbs</option>
+                        </select>
+                    </div>
+
+                </div>
+                    
+                <div class="formspace"> 
+                    <div class="height">
+                        <label > Height:</label>
+                        <input type="number" class="no" id='hnum' step="0.1">
+                    </div>
+                    <div class="h_unit">
+                        <label>  Unit:</label>
+                        <select class="select" id="hselect">
+                            <option value="cm">Cm</option>
+                            <option value="feet">Feet</option>
+                        </select>
+                    </div>
+
+                </div>
+                   
+                    <input type="submit" class="btn" value="Check BMI">
+                    <input type="reset" class="btn" value= "Reset BMI"  id="reset">
+                   
+                
+
+            </form>
+        </div>
+        <div class="result" id="result">
+            <span class="result_text" id="result_text"></span>
+            <span class="status" id="status"> </span>
+        </div>
+            
+        
+    </div>
+    <script src="bmi.js">
+
+    </script>
+
+</body>
+
+</html>
